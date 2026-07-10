@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f5f6f8;
+  color: #1a1a1a;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 8px 0 20px;
+  border-bottom: 1px solid #e2e4e9;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0 0 4px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 20px;
+}
+
+.bubble {
+  padding: 12px 14px;
+  border-radius: 12px;
+  max-width: 85%;
+  line-height: 1.5;
+  font-size: 14.5px;
+  white-space: pre-wrap;
+}
+
+.bubble.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: white;
+  border-bottom-right-radius: 2px;
+}
+
+.bubble.assistant {
+  align-self: flex-start;
+  background: white;
+  border: 1px solid #e2e4e9;
+  border-bottom-left-radius: 2px;
+}
+
+.bubble.assistant.error {
+  border-color: #f3b3b3;
+  background: #fff5f5;
+  color: #b42318;
+}
+
+.sources {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.empty-state {
+  color: #6b7280;
+  font-size: 14px;
+  padding: 24px 0;
+}
+
+.input-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, #f5f6f8 60%, transparent);
+  padding: 16px;
+}
+
+.input-row {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14.5px;
+  outline: none;
+}
+
+.input-row input:focus {
+  border-color: #2563eb;
+}
+
+.input-row button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 14.5px;
+  cursor: pointer;
+}
+
+.input-row button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}

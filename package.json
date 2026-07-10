@@ -1,0 +1,32 @@
+{
+  "name": "rag-gemini-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ingest-all": "tsx scripts/ingest-all.ts"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "@langchain/core": "latest",
+    "@langchain/google-genai": "latest",
+    "@langchain/ollama": "^1.3.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "chromadb": "latest",
+    "dotenv": "16.4.5",
+    "langchain": "latest",
+    "next": "14.2.5",
+    "pdf-parse": "^2.4.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.15",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "tsx": "4.16.5",
+    "typescript": "5.5.4"
+  }
+}

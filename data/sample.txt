@@ -1,0 +1,32 @@
+RAG (Retrieval-Augmented Generation) is a technique that improves the answers of a
+large language model by giving it relevant information at query time, instead of
+relying only on what the model memorized during training.
+
+The typical RAG workflow has two phases:
+
+1. Ingestion (offline, done once or whenever documents change):
+   - Load raw documents (text files, PDFs, web pages, etc.)
+   - Split them into smaller chunks (so each chunk fits well inside an embedding model)
+   - Convert each chunk into a vector embedding using an embedding model
+   - Store those vectors in a vector database, alongside the original text
+
+2. Query (online, happens every time a user asks a question):
+   - Convert the user's question into a vector embedding using the same embedding model
+   - Search the vector database for the chunks whose vectors are closest to the question's vector
+   - Insert those chunks into the prompt as "context"
+   - Send the question + context to a chat model (like Gemini) and return its answer
+
+
+My name is Rohan. I am 22 years old. I live in Noida.
+ChromaDB is an open-source vector database. It stores embeddings and lets you run
+fast similarity search ("find the 3 chunks most similar to this vector") over them.
+
+LangChain is a framework that wires all of these pieces together: document loaders,
+text splitters, embedding models, vector stores, and chat models, so you don't have
+to write the glue code yourself.
+
+Google Gemini provides both an embedding model (used to turn text into vectors) and
+a chat model (used to generate the final natural-language answer).
+
+This sample file exists only so the demo has something to ingest and answer
+questions about. Feel free to replace it with your own notes, docs, or PDFs.
