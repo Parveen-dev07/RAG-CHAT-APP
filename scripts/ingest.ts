@@ -9,7 +9,7 @@ import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { getEmbeddings } from "../lib/gemini";
+import { getEmbeddings } from "../lib/ollama";
 import { getOrCreateCollection } from "../lib/chroma";
 
 async function main() {

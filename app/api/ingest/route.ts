@@ -38,6 +38,7 @@ export async function POST(req: NextRequest) {
       })),
     });
 
+
     return NextResponse.json({ added: chunks.length });
   } catch (err: any) {
     console.error("Ingest route error:", err);
@@ -47,3 +48,4 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+  

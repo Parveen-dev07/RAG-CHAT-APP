@@ -17,6 +17,7 @@
     "chromadb": "latest",
     "dotenv": "16.4.5",
     "langchain": "latest",
+    "mongoose": "^9.7.4",
     "next": "14.2.5",
     "pdf-parse": "^2.4.5",
     "react": "18.3.1",

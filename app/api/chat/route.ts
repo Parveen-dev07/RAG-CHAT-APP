@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getOrCreateCollection } from "@/lib/chroma";
-import { getEmbeddings, getChatModel } from "@/lib/gemini";
+import { getEmbeddings, getChatModel } from "@/lib/ollama";
 
 export async function POST(req: NextRequest) {
   try {

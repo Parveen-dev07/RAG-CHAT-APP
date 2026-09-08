@@ -11,7 +11,7 @@ import fs from "fs";
 import path from "path";
 import { PDFParse } from "pdf-parse";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { getEmbeddings } from "../lib/gemini";
+import { getEmbeddings } from "../lib/ollama";
 import { getOrCreateCollection } from "../lib/chroma";
 
 const DATA_DIR = path.join(process.cwd(), "data");  
