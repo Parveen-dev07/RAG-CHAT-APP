@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Next.js build
+.next
+
+# Git
+.git
+.gitignore
+
+# Environment/secrets
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store

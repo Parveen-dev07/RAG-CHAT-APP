@@ -3,7 +3,7 @@ EMPLOYEE STATISTICS
 ==================================================
 
 Total Employees:
-42
+65
 
 Total Departments:
 10

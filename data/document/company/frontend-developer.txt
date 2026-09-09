@@ -153,7 +153,7 @@ Role:
 Manager
 
 Employee Name:
-Frontend Department Manager
+Rohit kumar
 
 Position:
 Department Manager
@@ -176,7 +176,7 @@ Role:
 Team Lead
 
 Employee Name:
-Frontend Team Lead
+Arman dhaliwal
 
 Position:
 Team Lead

@@ -16,7 +16,7 @@ Employee Name:
 Neha Kapoor
 
 Position:
-HR Manager
+HR 
 
 Department:
 Human Resources
@@ -50,7 +50,7 @@ Role:
 Manager
 
 Employee Name:
-HR Department Manager
+Jasspreet kaur
 
 Position:
 Department Manager
@@ -73,7 +73,7 @@ Role:
 Team Lead
 
 Employee Name:
-HR Team Lead
+Mehak Dhiman
 
 Position:
 Team Lead

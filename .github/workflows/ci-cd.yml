@@ -1,0 +1,72 @@
+# this is the name that will appear in github actions 
+
+name: RAG Gemini Chat CI/CD
+
+on:
+    # run the work work whenever code is pushed in this branch 
+    push:
+        branches:
+            -parveen-rag-app
+
+jobs:
+    
+    # CI JObs 
+
+    build-and-test:
+
+        # github gives us a temporary Ubuntu machine to execute these commands.
+       runs-on: ubuntu-lates 
+
+
+       steps:
+         
+          # This downloads our GitHub repository
+      # into the GitHub Actions machine.
+      #
+      # Without this, GitHub Actions doesn't have
+      # our source code.
+
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+
+
+
+      # ------------------------------------------------------
+      # 2. INSTALL NODE.JS
+      # ------------------------------------------------------
+
+      # Our application is a Next.js application,
+      # so GitHub needs Node.js.
+      #
+      # We use Node.js 20, which is compatible with
+      # our current Next.js 14 project.
+      #
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: 20
+
+
+        # package-lock.json exists in our project.
+      #
+      # npm ci:
+      #   - installs dependencies
+      #   - uses package-lock.json
+      #   - is recommended for CI environments
+      #   
+        - name: Install dependencies
+          run: npm ci
+
+        - name: Build Next.js application
+          run: npm run build
+
+        - name: Build Docker image
+          run: docker build -t rag-gemini-chat  
+
+
+
+
+
+

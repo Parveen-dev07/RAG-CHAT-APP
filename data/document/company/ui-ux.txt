@@ -195,7 +195,7 @@ Role:
 Manager
 
 Employee Name:
-UI/UX Department Manager
+John singh
 
 Position:
 Department Manager
@@ -218,7 +218,7 @@ Role:
 Team Lead
 
 Employee Name:
-UI/UX Team Lead
+Satyam shrivastav
 
 Position:
 Team Lead
