@@ -1,0 +1,47 @@
+==================================================
+EMPLOYEE STATISTICS
+==================================================
+
+Total Employees:
+42
+
+Total Departments:
+10
+
+
+==================================================
+DEPARTMENTS
+==================================================
+
+1. Software Development
+Total Employees: 28
+
+   Frontend Developers: 4
+   Backend Developers: 6
+   Full Stack Developers: 8
+   Mobile Developers: 5
+   Other Development Roles: 5
+
+
+2. QA / Testing
+Total Employees: 5
+
+
+3. UI/UX Design
+Total Employees: 5
+
+
+4. DevOps
+Total Employees: 3
+
+
+5. HR
+Total Employees: 1
+
+
+6. Sales / Business Development
+Total Employees: 3
+
+
+7. Digital Marketing
+Total Employees: 2

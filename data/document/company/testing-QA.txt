@@ -1,0 +1,229 @@
+==================================================
+QA / TESTING EMPLOYEES
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-026
+Password:
+GEEK@EMP026
+
+Role:
+Employee
+
+
+
+Employee Name:
+Sandeep Kumar
+
+Position:
+QA Engineer
+
+Department:
+QA / Testing
+
+Technology:
+Manual Testing, Postman, Jira, API Testing, SQL
+
+Experience:
+1 Year
+
+Responsibilities:
+- Perform functional and regression testing.
+- Test REST APIs using Postman.
+- Create and execute test cases.
+- Report and track bugs using Jira.
+- Perform database validation using SQL.
+- Verify application functionality before release.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-027
+Password:
+GEEK@EMP027
+
+Role:
+Employee
+
+
+
+Employee Name:
+Megha Sharma
+
+Position:
+QA Engineer
+
+Department:
+QA / Testing
+
+Technology:
+Manual Testing, Selenium, JavaScript, Postman, Jira
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Perform functional and regression testing.
+- Create and maintain test cases.
+- Automate repetitive test scenarios using Selenium.
+- Test REST APIs using Postman.
+- Identify and report application defects.
+- Collaborate with developers to resolve bugs.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-028
+Password:
+GEEK@EMP028
+
+Role:
+Employee
+
+
+
+Employee Name:
+Rakesh Singh
+
+Position:
+QA Engineer
+
+Department:
+QA / Testing
+
+Technology:
+Automation Testing, Playwright, TypeScript, Postman, Git
+
+Experience:
+2 Years
+
+Responsibilities:
+- Develop automated test cases using Playwright.
+- Perform API testing using Postman.
+- Execute regression and integration testing.
+- Maintain automated testing scripts.
+- Report and track defects.
+- Participate in release testing.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-029
+Password:
+GEEK@EMP029
+
+Role:
+Employee
+
+
+
+Employee Name:
+Pankaj Verma
+
+Position:
+Senior QA Engineer
+
+Department:
+QA / Testing
+
+Technology:
+Selenium, Playwright, TypeScript, API Testing, SQL, Jira
+
+Experience:
+3.5 Years
+
+Responsibilities:
+- Design and maintain automated testing frameworks.
+- Develop end-to-end test cases.
+- Perform API and database testing.
+- Review test cases created by QA engineers.
+- Identify critical application defects.
+- Coordinate testing activities with development teams.
+- Maintain quality standards across projects.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-030
+Password:
+GEEK@EMP030
+
+Role:
+Employee
+
+
+
+Employee Name:
+Simran Sharma
+
+Position:
+QA Lead
+
+Department:
+QA / Testing
+
+Technology:
+Playwright, Selenium, TypeScript, API Testing, SQL, CI/CD
+
+Experience:
+5 Years
+
+Responsibilities:
+- Lead QA and testing activities across projects.
+- Design automation testing strategies.
+- Develop and maintain end-to-end test frameworks.
+- Perform API, integration, regression, and performance testing.
+- Integrate automated tests with CI/CD pipelines.
+- Review testing processes and quality standards.
+- Mentor QA engineers.
+- Coordinate with development and project management teams.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-053
+
+Password:
+GEEK@EMP053
+
+Role:
+Manager
+
+Employee Name:
+Ravi gurjar
+
+Position:
+Department Manager
+
+Department:
+QA / Testing
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-054
+
+Password:
+GEEK@EMP054
+
+Role:
+Team Lead
+
+Employee Name:
+Sonu kumar
+
+Position:
+Team Lead
+
+Department:
+QA / Testing
+
+Status:
+Active

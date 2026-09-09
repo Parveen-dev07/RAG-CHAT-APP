@@ -1,0 +1,230 @@
+==================================================
+MOBILE DEVELOPERS
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-021
+Password:
+GEEK@EMP021
+
+Role:
+Employee
+
+
+
+Employee Name:
+Akash Kumar
+
+Position:
+Mobile Developer
+
+Department:
+Mobile Development
+
+Technology:
+React Native, JavaScript, TypeScript, Firebase
+
+Experience:
+1 Year
+
+Responsibilities:
+- Develop mobile applications using React Native.
+- Create reusable mobile UI components.
+- Integrate REST APIs with mobile applications.
+- Implement Firebase services.
+- Fix mobile application bugs.
+- Test applications on Android and iOS devices.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-022
+Password:
+GEEK@EMP022
+
+Role:
+Employee
+
+
+
+Employee Name:
+Riya Sharma
+
+Position:
+Mobile Developer
+
+Department:
+Mobile Development
+
+Technology:
+Flutter, Dart, Firebase, REST APIs
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Develop cross-platform mobile applications using Flutter.
+- Build responsive mobile interfaces.
+- Integrate REST APIs.
+- Implement Firebase authentication and notifications.
+- Debug and resolve application issues.
+- Maintain existing mobile applications.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-023
+Password:
+GEEK@EMP023
+
+Role:
+Employee
+
+
+
+Employee Name:
+Mohit Singh
+
+Position:
+Mobile Developer
+
+Department:
+Mobile Development
+
+Technology:
+React Native, TypeScript, Node.js, Firebase, Redux
+
+Experience:
+2 Years
+
+Responsibilities:
+- Develop cross-platform mobile applications.
+- Build reusable React Native components.
+- Integrate backend APIs.
+- Manage application state using Redux.
+- Implement push notifications.
+- Optimize mobile application performance.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-024
+Password:
+GEEK@EMP024
+
+Role:
+Employee
+
+
+
+Employee Name:
+Karan Verma
+
+Position:
+Senior Mobile Developer
+
+Department:
+Mobile Development
+
+Technology:
+React Native, TypeScript, Flutter, Firebase, REST APIs
+
+Experience:
+3.5 Years
+
+Responsibilities:
+- Design and develop scalable mobile applications.
+- Lead mobile application development tasks.
+- Integrate APIs and third-party services.
+- Implement authentication and push notifications.
+- Review mobile application code.
+- Optimize application performance.
+- Mentor junior mobile developers.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-025
+Password:
+GEEK@EMP025
+
+Role:
+Employee
+
+
+
+Employee Name:
+Harshdeep Singh
+
+Position:
+Senior Mobile Developer
+
+Department:
+Mobile Development
+
+Technology:
+React Native, Flutter, TypeScript, Node.js, Firebase, AWS
+
+Experience:
+5 Years
+
+Responsibilities:
+- Lead mobile application development projects.
+- Design scalable mobile application architecture.
+- Develop applications for Android and iOS.
+- Integrate backend APIs and cloud services.
+- Implement authentication and notification systems.
+- Optimize application performance.
+- Conduct code reviews.
+- Mentor mobile development team members.
+- Troubleshoot complex production issues.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-051
+
+Password:
+GEEK@EMP051
+
+Role:
+Manager
+
+Employee Name:
+Dhadwal
+
+Position:
+Department Manager
+
+Department:
+Mobile Development
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-052
+
+Password:
+GEEK@EMP052
+
+Role:
+Team Lead
+
+Employee Name:
+Nitin mithal
+
+Position:
+Team Lead
+
+Department:
+Mobile Development
+
+Status:
+Active

@@ -1,0 +1,188 @@
+==================================================
+FRONTEND DEVELOPERS
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-003
+Password:
+GEEK@EMP003
+
+Role:
+Employee
+
+
+
+Employee Name:
+Aman Kumar
+
+Position:
+Frontend Developer
+
+Department:
+Frontend Development
+
+Technology:
+React.js, JavaScript, TypeScript, HTML, CSS, Tailwind CSS
+
+Experience:
+1 Year
+
+Responsibilities:
+- Develop responsive web interfaces.
+- Build reusable React components.
+- Integrate frontend applications with REST APIs.
+- Fix UI bugs and improve application performance.
+- Participate in code reviews.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-004
+Password:
+GEEK@EMP004
+
+Role:
+Employee
+
+
+
+Employee Name:
+Neha Sharma
+
+Position:
+Frontend Developer
+
+Department:
+Frontend Development
+
+Technology:
+React.js, Next.js, TypeScript, JavaScript, Tailwind CSS
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Develop and maintain React and Next.js applications.
+- Create reusable UI components.
+- Integrate APIs with frontend applications.
+- Implement responsive designs.
+- Optimize frontend performance.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-005
+Password:
+GEEK@EMP005
+
+Role:
+Employee
+
+
+
+Employee Name:
+Rohit Verma
+
+Position:
+Frontend Developer
+
+Department:
+Frontend Development
+
+Technology:
+React.js, JavaScript, Redux Toolkit, HTML, CSS
+
+Experience:
+2 Years
+
+Responsibilities:
+- Develop frontend features using React.js.
+- Manage application state using Redux Toolkit.
+- Integrate REST APIs.
+- Develop responsive user interfaces.
+- Debug and resolve frontend issues.
+- Collaborate with backend developers.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-006
+Password:
+GEEK@EMP006
+
+Role:
+Employee
+
+
+
+Employee Name:
+Simran Kaur
+
+Position:
+Senior Frontend Developer
+
+Department:
+Frontend Development
+
+Technology:
+React.js, Next.js, TypeScript, Redux, Tailwind CSS
+
+Experience:
+3 Years
+
+Responsibilities:
+- Lead frontend development tasks.
+- Design reusable and scalable frontend architecture.
+- Develop complex React and Next.js features.
+- Review code written by other developers.
+- Optimize application performance.
+- Mentor junior frontend developers.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-045
+
+Password:
+GEEK@EMP045
+
+Role:
+Manager
+
+Employee Name:
+Frontend Department Manager
+
+Position:
+Department Manager
+
+Department:
+Frontend Development
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-046
+
+Password:
+GEEK@EMP046
+
+Role:
+Team Lead
+
+Employee Name:
+Frontend Team Lead
+
+Position:
+Team Lead
+
+Department:
+Frontend Development
+
+Status:
+Active

@@ -1,0 +1,85 @@
+==================================================
+HR EMPLOYEE
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-039
+Password:
+GEEK@EMP039
+
+Role:
+HR
+
+
+
+Employee Name:
+Neha Kapoor
+
+Position:
+HR Manager
+
+Department:
+Human Resources
+
+Technology:
+HRMS, Microsoft Excel, Google Workspace, Applicant Tracking System
+
+Experience:
+5 Years
+
+Responsibilities:
+- Manage employee recruitment and onboarding.
+- Coordinate interviews and hiring activities.
+- Maintain employee records and HR documentation.
+- Handle employee attendance and leave management.
+- Coordinate employee training and development activities.
+- Support performance evaluation processes.
+- Address employee concerns and workplace issues.
+- Coordinate with department managers regarding staffing requirements.
+- Maintain company HR policies and procedures.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-059
+
+Password:
+GEEK@EMP059
+
+Role:
+Manager
+
+Employee Name:
+HR Department Manager
+
+Position:
+Department Manager
+
+Department:
+Human Resources
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-060
+
+Password:
+GEEK@EMP060
+
+Role:
+Team Lead
+
+Employee Name:
+HR Team Lead
+
+Position:
+Team Lead
+
+Department:
+Human Resources
+
+Status:
+Active

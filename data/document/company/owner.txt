@@ -1,0 +1,58 @@
+==================================================
+OWNER PROFILE
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-0023
+
+Password:
+GEEK@OWNER002
+
+Role:
+Owner
+
+Employee Name:
+Mandeep choudhary
+
+Position:
+Founder and Owner
+
+Department:
+Executive Management
+
+Access Scope:
+Company-wide oversight and administrative access.
+
+Contact:
+mandeep@geektech.com
+
+Status:
+Active
+
+
+Employee Unique ID:
+GEEK-EMP-002
+
+Password:
+GEEK@OWNER002
+
+Role:
+Owner
+
+Employee Name:
+Inderjeet Singh
+
+Position:
+Founder and Owner
+
+Department:
+Executive Management
+
+Access Scope:
+Company-wide oversight and administrative access.
+
+Contact:
+inderjeetsingh@gmail.com
+
+Status:
+Active

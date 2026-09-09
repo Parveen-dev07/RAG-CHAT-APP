@@ -1,0 +1,30 @@
+Web Development:
+- React
+- Node.js
+- Angular
+- PHP
+- ASP.NET
+- MERN Stack
+
+Backend:
+- Node.js
+- Express.js
+- NestJS
+
+Databases:
+- MongoDB
+- PostgreSQL
+- MySQL
+
+Cloud / DevOps:
+- AWS
+- Docker
+- CI/CD
+
+AI / ML:
+- Large Language Models
+- RAG
+- Embeddings
+- Vector Databases
+- LangChain
+- ChromaDB

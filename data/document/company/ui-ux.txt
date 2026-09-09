@@ -1,0 +1,230 @@
+==================================================
+UI/UX DESIGN EMPLOYEES
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-031
+Password:
+GEEK@EMP031
+
+Role:
+Employee
+
+
+
+Employee Name:
+Ankit Sharma
+
+Position:
+UI/UX Designer
+
+Department:
+UI/UX Design
+
+Technology:
+Figma, Adobe XD, Photoshop, Illustrator
+
+Experience:
+1 Year
+
+Responsibilities:
+- Design website and application interfaces.
+- Create wireframes and prototypes.
+- Design reusable UI components.
+- Prepare designs based on project requirements.
+- Collaborate with frontend developers.
+- Improve user interface usability.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-032
+Password:
+GEEK@EMP032
+
+Role:
+Employee
+
+
+
+Employee Name:
+Komal Verma
+
+Position:
+UI/UX Designer
+
+Department:
+UI/UX Design
+
+Technology:
+Figma, Adobe XD, Photoshop, Illustrator, FigJam
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Create user-friendly website and mobile interfaces.
+- Develop wireframes and interactive prototypes.
+- Conduct basic user research.
+- Create design systems and reusable components.
+- Collaborate with developers and product teams.
+- Update designs based on client feedback.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-033
+Password:
+GEEK@EMP033
+
+Role:
+Employee
+
+
+
+Employee Name:
+Naveen Kumar
+
+Position:
+UI/UX Designer
+
+Department:
+UI/UX Design
+
+Technology:
+Figma, Sketch, Photoshop, Illustrator
+
+Experience:
+2 Years
+
+Responsibilities:
+- Design responsive web and mobile interfaces.
+- Create high-fidelity prototypes.
+- Develop user flows and wireframes.
+- Maintain consistent visual design across projects.
+- Collaborate with frontend and backend teams.
+- Analyze user feedback and improve designs.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-034
+Password:
+GEEK@EMP034
+
+Role:
+Employee
+
+
+
+Employee Name:
+Shreya Singh
+
+Position:
+Senior UI/UX Designer
+
+Department:
+UI/UX Design
+
+Technology:
+Figma, FigJam, Adobe XD, Photoshop, Design Systems
+
+Experience:
+3.5 Years
+
+Responsibilities:
+- Lead UI/UX design activities for projects.
+- Create complete user journeys and design systems.
+- Develop high-fidelity prototypes.
+- Conduct usability analysis.
+- Review designs created by junior designers.
+- Collaborate with developers and project managers.
+- Ensure consistency across web and mobile applications.
+- Mentor junior designers.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-035
+Password:
+GEEK@EMP035
+
+Role:
+Employee
+
+
+
+Employee Name:
+Rahul Verma
+
+Position:
+UI/UX Design Lead
+
+Department:
+UI/UX Design
+
+Technology:
+Figma, FigJam, Adobe Creative Cloud, Design Systems, Prototyping
+
+Experience:
+5 Years
+
+Responsibilities:
+- Lead the UI/UX design team.
+- Define design strategies for projects.
+- Create scalable design systems.
+- Lead user research and usability analysis.
+- Review and approve final designs.
+- Work directly with project and development teams.
+- Ensure designs meet business and user requirements.
+- Mentor UI/UX designers.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-055
+
+Password:
+GEEK@EMP055
+
+Role:
+Manager
+
+Employee Name:
+UI/UX Department Manager
+
+Position:
+Department Manager
+
+Department:
+UI/UX Design
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-056
+
+Password:
+GEEK@EMP056
+
+Role:
+Team Lead
+
+Employee Name:
+UI/UX Team Lead
+
+Position:
+Team Lead
+
+Department:
+UI/UX Design
+
+Status:
+Active

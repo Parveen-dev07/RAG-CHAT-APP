@@ -1,0 +1,92 @@
+### Digital Marketing — 2 Employees
+
+**1. Employee Unique ID:** GEEK-EMP-043
+Password:
+GEEK@EMP043
+
+Role:
+Employee
+
+
+**Employee Name:** Kunal Sharma
+**Position:** Digital Marketing Executive
+**Department:** Digital Marketing
+**Technology:** Google Ads, Google Analytics, SEO, SEM, Google Search Console, Canva
+**Experience:** 1.5 years
+**Responsibilities:**
+
+* Manage Google Ads campaigns
+* Perform keyword research and SEO activities
+* Monitor website traffic and campaign performance
+* Prepare digital marketing reports
+* Manage basic social media campaigns
+
+---
+
+**2. Employee Unique ID:** GEEK-EMP-044
+Password:
+GEEK@EMP044
+
+Role:
+Employee
+
+
+**Employee Name:** Ananya Singh
+**Position:** Digital Marketing Manager
+**Department:** Digital Marketing
+**Technology:** Google Ads, Google Analytics, SEO, SEMrush, Google Search Console, Meta Ads
+**Experience:** 4 years
+**Responsibilities:**
+
+* Plan and manage digital marketing strategies
+* Manage SEO and paid advertising campaigns
+* Analyze marketing performance and conversions
+* Monitor keyword rankings and website traffic
+* Prepare campaign performance reports
+* Coordinate with development and content teams
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-063
+
+Password:
+GEEK@EMP063
+
+Role:
+Manager
+
+Employee Name:
+Kuldeep singh
+
+Position:
+Department Manager
+
+Department:
+Digital Marketing
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-064
+
+Password:
+GEEK@EMP064
+
+Role:
+Team Lead
+
+Employee Name:
+Abhishek
+
+Position:
+Team Lead
+
+Department:
+Digital Marketing
+
+Status:
+Active

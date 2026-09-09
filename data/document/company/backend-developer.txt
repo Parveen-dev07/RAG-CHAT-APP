@@ -1,0 +1,267 @@
+==================================================
+BACKEND DEVELOPERS
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-007
+Password:
+GEEK@EMP007
+
+Role:
+Employee
+
+
+
+Employee Name:
+Arjun Mehta
+
+Position:
+Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+Node.js, Express.js, MongoDB, JavaScript, REST API
+
+Experience:
+1 Year
+
+Responsibilities:
+- Develop REST APIs using Node.js and Express.js.
+- Implement backend business logic.
+- Work with MongoDB databases.
+- Integrate third-party APIs.
+- Fix backend bugs and API issues.
+- Participate in code reviews.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-008
+Password:
+GEEK@EMP008
+
+Role:
+Employee
+
+
+
+Employee Name:
+Karan Singh
+
+Position:
+Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+Node.js, NestJS, PostgreSQL, TypeScript, Prisma
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Develop backend services using NestJS.
+- Create REST APIs and backend modules.
+- Work with PostgreSQL and Prisma ORM.
+- Implement authentication and authorization.
+- Validate API requests and handle exceptions.
+- Optimize database queries.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-009
+Password:
+GEEK@EMP009
+
+Role:
+Employee
+
+
+
+Employee Name:
+Vikas Sharma
+
+Position:
+Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+Node.js, Express.js, MongoDB, Redis, JavaScript
+
+Experience:
+2 Years
+
+Responsibilities:
+- Develop scalable backend APIs.
+- Implement database operations using MongoDB.
+- Use Redis for caching and performance improvements.
+- Implement authentication and authorization.
+- Debug and resolve backend issues.
+- Improve API performance.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-010
+Password:
+GEEK@EMP010
+
+Role:
+Employee
+
+
+
+Employee Name:
+Harpreet Singh
+
+Position:
+Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+NestJS, TypeScript, PostgreSQL, Prisma, Redis
+
+Experience:
+2.5 Years
+
+Responsibilities:
+- Design and develop backend modules.
+- Build REST APIs using NestJS.
+- Design PostgreSQL database structures.
+- Use Prisma for database operations.
+- Implement caching using Redis.
+- Write reusable and maintainable backend code.
+- Participate in technical discussions.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-011
+Password:
+GEEK@EMP011
+
+Role:
+Employee
+
+
+
+Employee Name:
+Nitin Kumar
+
+Position:
+Senior Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+Node.js, NestJS, TypeScript, PostgreSQL, MongoDB, Docker
+
+Experience:
+3.5 Years
+
+Responsibilities:
+- Design scalable backend architecture.
+- Develop complex APIs and backend services.
+- Work with relational and NoSQL databases.
+- Review backend code written by developers.
+- Implement authentication and security mechanisms.
+- Dockerize backend applications.
+- Optimize application performance.
+- Mentor junior backend developers.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-012
+Password:
+GEEK@EMP012
+
+Role:
+Employee
+
+
+
+Employee Name:
+Deepak Verma
+
+Position:
+Senior Backend Developer
+
+Department:
+Backend Development
+
+Technology:
+Node.js, NestJS, TypeScript, PostgreSQL, AWS, Docker, Redis
+
+Experience:
+5 Years
+
+Responsibilities:
+- Lead backend development activities.
+- Design scalable and reliable backend systems.
+- Develop high-performance REST APIs.
+- Design database architecture and optimize queries.
+- Deploy backend applications using AWS and Docker.
+- Implement caching and performance optimization.
+- Conduct code reviews and mentor developers.
+- Troubleshoot complex production issues.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-047
+
+Password:
+GEEK@EMP047
+
+Role:
+Manager
+
+Employee Name:
+Anupama Negi
+
+Position:
+Department Manager
+
+Department:
+Backend Development
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-048
+
+Password:
+GEEK@EMP048
+
+Role:
+Team Lead
+
+Employee Name:
+Neha Sharma
+
+Position:
+Team Lead
+
+Department:
+Backend Development
+
+Status:
+Active

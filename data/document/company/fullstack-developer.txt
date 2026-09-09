@@ -1,0 +1,343 @@
+==================================================
+FULL STACK DEVELOPERS
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-013
+Password:
+GEEK@EMP013
+
+Role:
+Employee
+
+
+
+Employee Name:
+Arpita Sarkar
+
+Position:
+Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Node.js, Express.js, MongoDB, JavaScript
+
+Experience:
+5 Year
+
+Responsibilities:
+- Develop frontend features using React.js.
+- Build REST APIs using Node.js and Express.js.
+- Work with MongoDB for database operations.
+- Integrate frontend applications with backend APIs.
+- Fix bugs and implement new application features.
+- Participate in code reviews.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-014
+Password:
+GEEK@EMP014
+
+Role:
+Employee
+
+
+
+Employee Name:
+Parveen choudhary
+
+Position:
+Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Node.js, TypeScript, MongoDB, Express.js
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Develop responsive React.js applications.
+- Create REST APIs using Node.js and Express.js.
+- Implement backend business logic.
+- Manage MongoDB database operations.
+- Integrate third-party APIs.
+- Troubleshoot frontend and backend issues.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-015
+Password:
+GEEK@EMP015
+
+Role:
+Employee
+
+
+
+Employee Name:
+Varun Singh
+
+Position:
+Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Node.js, NestJS, PostgreSQL, TypeScript, Prisma
+
+Experience:
+1 Year
+
+Responsibilities:
+- Develop full-stack web applications.
+- Build APIs using NestJS.
+- Develop reusable React.js components.
+- Design and manage PostgreSQL databases.
+- Use Prisma ORM for database operations.
+- Implement authentication and authorization.
+- Integrate frontend with backend services.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-016
+Password:
+GEEK@EMP016
+
+Role:
+Employee
+
+
+
+Employee Name:
+Simran 
+
+Position:
+senior Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+Next.js, Node.js, NestJS, PostgreSQL, TypeScript
+
+Experience:
+8 Years
+
+Responsibilities:
+- Develop applications using Next.js and NestJS.
+- Build scalable REST APIs.
+- Develop server-side and client-side features.
+- Work with PostgreSQL databases.
+- Implement authentication and authorization.
+- Optimize application performance.
+- Participate in technical discussions.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-017
+Password:
+GEEK@EMP017
+
+Role:
+Employee
+
+
+
+Employee Name:
+Mukesh Bhatt
+
+Position:
+Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Node.js, Express.js, MongoDB, Redis, Docker
+
+Experience:
+5 Years
+
+Responsibilities:
+- Design and develop full-stack applications.
+- Build REST APIs using Node.js and Express.js.
+- Develop complex React.js features.
+- Use MongoDB for data management.
+- Implement Redis caching.
+- Dockerize applications.
+- Troubleshoot application and performance issues.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-018
+Password:
+GEEK@EMP018
+
+Role:
+Employee
+
+
+
+Employee Name:
+Tushar Garg
+
+Position:
+Senior Full Stack Developer 
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Next.js, NestJS, PostgreSQL, Prisma, Docker
+
+Experience:
+6 Years
+
+Responsibilities:
+- Design scalable full-stack application architecture.
+- Develop frontend applications using React.js and Next.js.
+- Develop backend services using NestJS.
+- Design PostgreSQL database structures.
+- Use Prisma ORM for database operations.
+- Review code and maintain development standards.
+- Mentor junior developers.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-019
+Password:
+GEEK@EMP019
+
+Role:
+Employee
+
+
+
+Employee Name:
+Amandeep Singh
+
+Position:
+Senior Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Node.js, NestJS, PostgreSQL, MongoDB, AWS
+
+Experience:
+4 Years
+
+Responsibilities:
+- Lead full-stack application development.
+- Design frontend and backend architecture.
+- Develop scalable REST APIs.
+- Work with PostgreSQL and MongoDB.
+- Deploy applications using AWS.
+- Implement authentication and security.
+- Optimize application performance.
+- Conduct code reviews.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-020
+Password:
+GEEK@EMP020
+
+Role:
+Employee
+
+
+
+Employee Name:
+Vivek Mehta
+
+Position:
+Lead Full Stack Developer
+
+Department:
+Full Stack Development
+
+Technology:
+React.js, Next.js, Node.js, NestJS, PostgreSQL, Redis, AWS, Docker
+
+Experience:
+6 Years
+
+Responsibilities:
+- Lead full-stack development projects.
+- Design scalable application architecture.
+- Make technical decisions for frontend and backend systems.
+- Develop and review complex application features.
+- Design and optimize database architecture.
+- Manage cloud deployments using AWS.
+- Implement caching and performance optimization.
+- Mentor developers and conduct technical reviews.
+- Troubleshoot complex production issues.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-049
+
+Password:
+GEEK@EMP049
+
+Role:
+Manager
+
+Employee Name:
+Gaurav Dhiman
+
+Position:
+Department Manager
+
+Department:
+Full Stack Development
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-050
+
+Password:
+GEEK@EMP050
+
+Role:
+Team Lead
+
+Employee Name:
+Vikramjeet singh
+
+Position:
+Team Lead
+
+Department:
+Full Stack Development
+
+Status:
+Active

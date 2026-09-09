@@ -1,0 +1,160 @@
+==================================================
+SALES / BUSINESS DEVELOPMENT EMPLOYEES
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-040
+Password:
+GEEK@EMP040
+
+Role:
+Employee
+
+
+
+Employee Name:
+Rohit Malhotra
+
+Position:
+Business Development Executive
+
+Department:
+Sales / Business Development
+
+Technology:
+CRM, LinkedIn, Microsoft Excel, Google Workspace
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Identify and research potential clients.
+- Generate and qualify business leads.
+- Contact potential clients through email, calls, and online platforms.
+- Understand client requirements and business needs.
+- Coordinate with technical teams for project discussions.
+- Maintain client information in the CRM.
+- Follow up with prospects and existing clients.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-041
+Password:
+GEEK@EMP041
+
+Role:
+Employee
+
+
+
+Employee Name:
+Priyanka Sharma
+
+Position:
+Business Development Manager
+
+Department:
+Sales / Business Development
+
+Technology:
+CRM, Microsoft Excel, LinkedIn Sales Tools, Google Workspace
+
+Experience:
+3 Years
+
+Responsibilities:
+- Manage business development activities.
+- Generate new business opportunities.
+- Build and maintain client relationships.
+- Understand client requirements and prepare proposals.
+- Coordinate with development and project management teams.
+- Track sales pipelines and business leads.
+- Negotiate project requirements and commercial discussions.
+- Monitor sales targets and business performance.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-042
+Password:
+GEEK@EMP042
+
+Role:
+Employee
+
+
+
+Employee Name:
+Vishal Kumar
+
+Position:
+Senior Business Development Manager
+
+Department:
+Sales / Business Development
+
+Technology:
+CRM, Sales Analytics, LinkedIn, Microsoft Excel, Google Workspace
+
+Experience:
+6 Years
+
+Responsibilities:
+- Lead sales and business development activities.
+- Develop strategies for acquiring new clients.
+- Manage important client relationships.
+- Identify new market and business opportunities.
+- Lead proposal and contract discussions.
+- Coordinate with technical teams to understand project requirements.
+- Monitor sales performance and revenue targets.
+- Mentor business development executives.
+- Maintain long-term relationships with clients.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-061
+
+Password:
+GEEK@EMP061
+
+Role:
+Manager
+
+Employee Name:
+Amrit singh
+
+Position:
+Department Manager
+
+Department:
+Sales / Business Development
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-062
+
+Password:
+GEEK@EMP062
+
+Role:
+Team Lead
+
+Employee Name:
+Gursimran kaur
+
+Position:
+Team Lead
+
+Department:
+Sales / Business Development
+
+Status:
+Active

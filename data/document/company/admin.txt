@@ -1,0 +1,30 @@
+==================================================
+ADMIN PROFILE
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-001
+
+Password:
+GEEK@ADMIN001
+
+Role:
+Admin
+
+Employee Name:
+System Administrator
+
+Position:
+Company Administrator
+
+Department:
+Administration
+
+Access Scope:
+Manage company knowledge-base settings and employee profile access.
+
+Contact:
+admin@geektech.example
+
+Status:
+Active

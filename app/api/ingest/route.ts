@@ -17,8 +17,8 @@ export async function POST(req: NextRequest) {
     }
 
     const splitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 500,
-      chunkOverlap: 80,
+      chunkSize: 1000,
+      chunkOverlap: 150,
     });
     const chunks = await splitter.splitText(text);
 
@@ -27,6 +27,12 @@ export async function POST(req: NextRequest) {
 
     const collection = await getOrCreateCollection();
     const idPrefix = (source || "manual-upload").replace(/\s+/g, "-");
+    console.log("show chunks---->",chunks)
+
+    console.log("show embenddings---->",embeddings)
+
+
+    console.log("show vectores----->",vectors)
 
     await collection.upsert({
       ids: chunks.map((_:any, i:any) => `${idPrefix}-${Date.now()}-${i}`),
@@ -37,6 +43,8 @@ export async function POST(req: NextRequest) {
         chunkIndex: i,
       })),
     });
+    
+
 
 
     return NextResponse.json({ added: chunks.length });
@@ -44,6 +52,7 @@ export async function POST(req: NextRequest) {
     console.error("Ingest route error:", err);
     return NextResponse.json(
       { error: err.message || "Something went wrong" },
+
       { status: 500 }
     );
   }

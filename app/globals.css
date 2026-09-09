@@ -29,11 +29,27 @@ body {
   margin: 0 0 4px;
 }
 
+.geek-infor {
+  color: cadetblue;
+  background-color: ButtonShadow;
+}
+
 .header p {
   margin: 0;
   font-size: 13px;
   color: #6b7280;
 }
+
+.employee-login { margin-bottom: 16px; padding: 14px; border: 1px solid #dbe3ef; border-radius: 10px; background: #fff; font-size: 13px; }
+.employee-login form { display: grid; gap: 8px; }
+.employee-login form > span { color: #6b7280; }
+.login-row { display: flex; gap: 8px; }
+.login-row input { min-width: 0; flex: 1; padding: 9px 10px; border: 1px solid #d1d5db; border-radius: 7px; }
+.login-row button, .signed-in button { padding: 9px 12px; border: 0; border-radius: 7px; background: #2563eb; color: #fff; cursor: pointer; }
+.signed-in { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.signed-in button { background: #4b5563; white-space: nowrap; }
+.auth-error { margin: 0; color: #b42318; }
+@media (max-width: 560px) { .login-row, .signed-in { align-items: flex-start; flex-direction: column; } }
 
 .messages {
   flex: 1;

@@ -1,0 +1,159 @@
+==================================================
+DEVOPS EMPLOYEES
+==================================================
+
+Employee Unique ID:
+GEEK-EMP-036
+Password:
+GEEK@EMP036
+
+Role:
+Employee
+
+
+
+Employee Name:
+Varun Kumar
+
+Position:
+DevOps Engineer
+
+Department:
+DevOps
+
+Technology:
+AWS, Docker, Linux, GitHub Actions, Nginx
+
+Experience:
+1.5 Years
+
+Responsibilities:
+- Manage application deployments.
+- Create and maintain Docker containers.
+- Configure AWS services.
+- Manage Linux servers.
+- Configure Nginx reverse proxy.
+- Maintain CI/CD pipelines using GitHub Actions.
+- Monitor application deployments and resolve deployment issues.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-037
+Password:
+GEEK@EMP037
+
+Role:
+Employee
+
+
+
+Employee Name:
+Amit Sharma
+
+Position:
+DevOps Engineer
+
+Department:
+DevOps
+
+Technology:
+AWS, Docker, Kubernetes, GitHub Actions, Linux, Terraform
+
+Experience:
+3 Years
+
+Responsibilities:
+- Design and maintain CI/CD pipelines.
+- Deploy applications using AWS.
+- Manage Docker containers and images.
+- Work with Kubernetes deployments.
+- Automate infrastructure using Terraform.
+- Monitor application infrastructure.
+- Troubleshoot production and deployment issues.
+
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-038
+Password:
+GEEK@EMP038
+
+Role:
+Employee
+
+
+
+Employee Name:
+Rajesh Singh
+
+Position:
+Senior DevOps Engineer
+
+Department:
+DevOps
+
+Technology:
+AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Linux
+
+Experience:
+5 Years
+
+Responsibilities:
+- Design scalable cloud infrastructure.
+- Manage AWS production environments.
+- Design and maintain CI/CD pipelines.
+- Manage Kubernetes clusters and deployments.
+- Automate infrastructure using Terraform.
+- Implement monitoring and logging solutions.
+- Improve application availability and deployment reliability.
+- Troubleshoot complex production issues.
+- Mentor junior DevOps engineers.
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-057
+
+Password:
+GEEK@EMP057
+
+Role:
+Manager
+
+Employee Name:
+Anwar khan
+
+Position:
+Department Manager
+
+Department:
+DevOps
+
+Status:
+Active
+
+--------------------------------------------------
+
+Employee Unique ID:
+GEEK-EMP-058
+
+Password:
+GEEK@EMP058
+
+Role:
+Team Lead
+
+Employee Name:
+Shobit gautam
+
+Position:
+Team Lead
+
+Department:
+DevOps
+
+Status:
+Active

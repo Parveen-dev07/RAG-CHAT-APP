@@ -99,6 +99,24 @@ npm run dev
 Open http://localhost:3000 and ask a question, e.g. **"What is RAG?"** or
 **"What does ChromaDB do?"** — the answer will be grounded in `sample.txt`.
 
+## Employee-profile access
+
+Employee records now require a sign-in using either the employee ID or full
+name plus password. After sign-in, ask **"my details"** (or use the signed-in
+employee ID); employees cannot retrieve another employee's profile.
+
+The starter passwords in the employee documents are `GEEK@EMP` followed by the
+three-digit ID, for example `GEEK@EMP003` for `GEEK-EMP-003`. Replace them with
+real, unique passwords before deploying. Set a strong `EMPLOYEE_SESSION_SECRET`
+in `.env` for production, then run `npm run ingest-all` so password fields are
+removed from existing Chroma embeddings.
+
+Each employee record has a `Role` field: `Employee` for standard staff and
+`HR` for the HR profile. Static privileged profiles are kept separately in
+`data/document/company/admin.txt` and `data/document/company/owner.txt`.
+Their starter IDs/passwords are `GEEK-EMP-001` / `GEEK@ADMIN001` and
+`GEEK-EMP-002` / `GEEK@OWNER002`; replace both before deployment.
+
 ## How the RAG flow works (the important part)
 
 **`lib/gemini.ts`** — creates two Gemini clients:
