@@ -1,35 +1,40 @@
-# this is the name that will appear in github actions 
+# This is the name that will appear in GitHub Actions
 
 name: RAG Gemini Chat CI/CD
 
 on:
-    # run the work work whenever code is pushed in this branch 
-    push:
-        branches:
-            -parveen-rag-app
+
+  # Run the workflow whenever code is pushed
+  # to the parveen-rag-app branch.
+  push:
+    branches:
+      - parveen-rag-app
+
 
 jobs:
-    
-    # CI JObs 
 
-    build-and-test:
+  # CI Job
+  build-and-test:
 
-        # github gives us a temporary Ubuntu machine to execute these commands.
-       runs-on: ubuntu-lates 
+    # GitHub gives us a temporary Ubuntu machine
+    # to execute these commands.
+    runs-on: ubuntu-latest
 
 
-       steps:
-         
-          # This downloads our GitHub repository
+    steps:
+
+      # ------------------------------------------------------
+      # 1. CHECKOUT CODE
+      # ------------------------------------------------------
+
+      # This downloads our GitHub repository
       # into the GitHub Actions machine.
       #
       # Without this, GitHub Actions doesn't have
       # our source code.
 
-        - name: Checkout repository
-          uses: actions/checkout@v4
-
-
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
 
       # ------------------------------------------------------
@@ -38,35 +43,39 @@ jobs:
 
       # Our application is a Next.js application,
       # so GitHub needs Node.js.
-      #
-      # We use Node.js 20, which is compatible with
-      # our current Next.js 14 project.
-      #
 
-        - name: Setup Node.js
-          uses: actions/setup-node@v4
-          with:
-            node-version: 20
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
 
-        # package-lock.json exists in our project.
+      # ------------------------------------------------------
+      # 3. INSTALL DEPENDENCIES
+      # ------------------------------------------------------
+
+      # package-lock.json exists in our project.
       #
       # npm ci:
       #   - installs dependencies
       #   - uses package-lock.json
       #   - is recommended for CI environments
-      #   
-        - name: Install dependencies
-          run: npm ci
 
-        - name: Build Next.js application
-          run: npm run build
-
-        - name: Build Docker image
-          run: docker build -t rag-gemini-chat  
+      - name: Install dependencies
+        run: npm ci
 
 
+      # ------------------------------------------------------
+      # 4. BUILD NEXT.JS APPLICATION
+      # ------------------------------------------------------
+
+      - name: Build Next.js application
+        run: npm run build
 
 
+      # ------------------------------------------------------
+      # 5. BUILD DOCKER IMAGE
+      # ------------------------------------------------------
 
-
+      - name: Build Docker image
+        run: docker build -t rag-gemini-chat .
