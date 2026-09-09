@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - chroma
+
+  chroma:
+     image: chromadb/chroma:latest
+     ports:
+       - "8000:8000"
+
