@@ -77,9 +77,7 @@ function normalizeEmployeeLabels(text: string) {
   return text.replace(/\*\*(?:\d+\.\s*)?([^*:\r\n]+):\*\*/g, "$1:");
 }
 
-// ---------------------------------------------------------
 // Extract employee metadata from one employee record.
-// ---------------------------------------------------------
 
 function extractEmployeeMetadata(record: string) {
   const employeeId =

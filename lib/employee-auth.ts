@@ -39,7 +39,30 @@ export function getEmployeeProfile(employeeId: string) {
   }
   return null;
 }
-function safeEqual(a: string, b: string) { return crypto.timingSafeEqual(crypto.createHash("sha256").update(a).digest(), crypto.createHash("sha256").update(b).digest()); }
+
+/** Returns the current source record for an employee by name. This keeps
+ * profile access available while Chroma is being re-ingested. Supports
+ * partial name matching so "Anwar" matches "Anwar khan". */
+export function getEmployeeProfileByName(employeeName: string) {
+  const normalizedName = employeeName.trim().toLowerCase();
+  for (const file of fs.readdirSync(EMPLOYEE_DOCUMENT_DIR).filter((file) => file.endsWith(".txt"))) {
+    const text = fs.readFileSync(path.join(EMPLOYEE_DOCUMENT_DIR, file), "utf8")
+      .replace(/\*\*(?:\d+\.\s*)?([^*:\r\n]+):\*\*/g, "$1:");
+    const records = text.split(/(?=Employee Unique ID\s*:)/i);
+    const record = records.find((item) => {
+      const name = item.match(/Employee Name\s*:\s*([^\r\n]+)/i)?.[1]?.trim().toLowerCase();
+      if (!name) return false;
+      return name === normalizedName || name.startsWith(normalizedName) || normalizedName.startsWith(name);
+    });
+    if (record) return redactPassword(record).trim();
+  }
+  return null;
+}
+function safeEqual(a: string, b: string) {
+  const hashA = new Uint8Array(crypto.createHash("sha256").update(a).digest());
+  const hashB = new Uint8Array(crypto.createHash("sha256").update(b).digest());
+  return crypto.timingSafeEqual(hashA, hashB);
+}
 export function findEmployee(identifier: string, password: string) {
   const value = identifier.trim().toLowerCase();
   const employee = getEmployeeCredentials().find((candidate) => candidate.employeeId.toLowerCase() === value || candidate.employeeName.toLowerCase() === value);
