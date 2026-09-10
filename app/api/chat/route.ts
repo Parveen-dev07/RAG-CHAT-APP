@@ -197,6 +197,46 @@ function extractRequestedLeadershipRoles(question: string): string[] {
   return Array.from(requestedRoles);
 }
 
+function isGreetingQuestion(question: string) {
+  const normalised = normaliseQuestion(question);
+  const greetingWord = /\b(?:hi|hello|hey|good\s+(?:morning|afternoon|evening)|namaste|how\s+are\s+you|how\s+you\s+doing|what's\s+up|what\s+are\s+you\s+doing)\b/.test(normalised);
+  const mentionsRag = /\brag\b/.test(normalised);
+
+  return greetingWord || mentionsRag;
+}
+
+function greetingResponse(question: string) {
+  if (!isGreetingQuestion(question)) return null;
+
+  return "Hi! I’m Rag, the Geek Tech company knowledge assistant. I’m here to help with company policies, services, technologies, and employee information when you sign in with an authorized role.";
+}
+
+function smallTalkResponse(question: string): string | null {
+  const normalised = normaliseQuestion(question);
+
+  if (/\b(?:who\s+are\s+you|what\s+are\s+you|tell\s+me\s+about\s+yourself|what\s+is\s+your\s+name)\b/.test(normalised)) {
+    return "I’m Rag, the Geek Tech company assistant. I can help you ask about company policies, services, technologies, and employee profiles when you sign in with an authorized role.";
+  }
+
+  if (/\b(?:what\s+can\s+you\s+do|what\s+do\s+you\s+do|how\s+can\s+you\s+help|can\s+you\s+help)\b/.test(normalised)) {
+    return "I can answer company knowledge questions, explain services and technologies, and help employees request employee profiles after sign-in with an authorized role.";
+  }
+
+  if (/\b(?:thanks|thank\s+you|thankyou)\b/.test(normalised)) {
+    return "You’re welcome! I’m here to help with Geek Tech company details, services, technologies, and employee information after sign-in.";
+  }
+
+  if (/\b(?:bye|goodbye|see\s+you|talk\s+later)\b/.test(normalised)) {
+    return "Goodbye! I’m here whenever you want to ask about Geek Tech company policies, services, technologies, or employee details with sign-in.";
+  }
+
+  if (/\b(?:how\s+are\s+you|how\s+you\s+doing|what's\s+up)\b/.test(normalised)) {
+    return "I’m doing well and ready to help with Geek Tech company information, services, technologies, and employee profiles after sign-in.";
+  }
+
+  return null;
+}
+
 function response(answer: string, sources: Record<string, unknown>[] = []) {
   return NextResponse.json({ answer, sources });
 }
@@ -316,6 +356,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const greeting = greetingResponse(question);
+    if (greeting) {
+      return response(greeting);
+    }
+
+    const casual = smallTalkResponse(question);
+    if (casual) {
+      return response(casual);
+    }
+
     const privilegedProfileSource = getPrivilegedProfileSource(question);
     if (privilegedProfileSource) {
       if (!canViewAllEmployees) {
@@ -364,7 +414,10 @@ export async function POST(req: NextRequest) {
       return response(
         "I couldn't find that in the company knowledge base. Try asking about company policies, services, technologies, or sign in with an authorized role to request employee information."
       );
-    }
+    } 
+
+
+
 
     const prompt = `You are a company knowledge assistant for Geek Tech.
 
